@@ -22,6 +22,7 @@ public class ResponseViewController {
         return "response/hello";
     }
 
+
     //권장하지 않는 방법
     @RequestMapping("/response/hello")
     public void responseViewV3(Model model){
